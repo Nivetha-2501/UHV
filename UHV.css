@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #A8D8FF 0%, #A4C9F7 100%);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.game-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 30px;
+    color: #5E6A8F;
+    margin-bottom: 15px;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #7A8D9B;
+}
+
+.question-container {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.question-text {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #696969;
+}
+
+.answer-options {
+    margin-bottom: 20px;
+    color: #696969;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+button {
+    background-color: #5E6A8F;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    width: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #3D4A60;
+}
+
+#progress-bar-container {
+    margin-top: 20px;
+}
+
+#progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+#progress {
+    height: 100%;
+    background-color: #5E6A8F;
+    border-radius: 5px;
+}
+
+.feedback {
+    font-size: 1.2em;
+    color: #7A8D9B;
+    margin-top: 20px;
+}
+
+#score {
+    font-size: 1.5em;
+    color: #5E6A8F;
+}
+
+#result {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#score-bar-container {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#score-bar {
+    width: 90%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+#score-fill {
+    height: 100%;
+    background-color: #5E6A8F;
+    border-radius: 5px;
+}
